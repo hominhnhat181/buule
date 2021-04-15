@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100% !important;
+    margin: auto;
+    padding: auto;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+/* header */
+
+.top_header {
+    display: flex;
+    background-color: seagreen;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.top_header h4 {
+    width: 100%;
+    font-size: 14px;
+    color: rgb(236, 235, 235);
+}
+
+.top_header a {
+    color: rgb(236, 235, 235);
+    margin-right: 30px;
+}
+
+.top_header a:hover {
+    color: rgb(105, 155, 206);
+}
+/*menu*/ 
+.bottom_header{
+    display: flex;
+}
+.logo img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 25%;
+    padding: 20px 0;
+    margin-left: 60px;
+    
+}
+ .menu_container {
+    float: right;
+    padding-right: 80px;
+    padding-top: 20px;
+    
+}
+
+
+
+/**content*/
+.content {
+    background-color: white;
+    position: relative;
+    width: 100%;
+}
+
+.content1 {
+    margin-top: 60px;
+    
+}
+.col-flex{
+    display: flex;
+}
+.content1_tittle {
+    text-align: center;
+    font-size: 30px;
+}
+
+.img_content {
+    float: left;
+    border-bottom: 4px outset rgba(255, 255, 255, 0.274);
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.img_content img {
+    max-width: 100%;
+    width: auto;
+    height: 100px;
+}
+
+.img_content .col-flex-box {
+    margin: 0 30px;
+}
+
+.content_bottom_tittle {
+    text-align: center;
+}
+
+
+
+.content_bottom_tittle h5 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.object_logo .col-flex-box {
+    margin: auto;
+}
+
+.object_logo img {
+    max-width: 100%;
+    width: 150px;
+}
+/*responsive */
+
+.gird {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    background-color: rgb(208, 223, 223);
+    float: left;
+    height: 100%;
+}
+
+.col-sm-3 {
+    margin: 100px;
+    float: left;
+}
+
+.content {
+    width: 100%;
+}
+
+.ct5_container {
+    display: flex;
+}
+
+.ct5_container h5 {
+    font-size: 22px;
+    color: green;
+    display: flex;
+}
+
+.email_text {
+    margin: auto;
+}
+
+.content5 {
+    display: flex;
+}
+
+.content4 {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.content4 .question {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.content4 .question h4 {
+    color: grey;
+}
+
+.content4 .question a {
+    color: grey;
+}
+
+.content-gth {
+    width: 100%;
+}
+
+.content-hien button {
+    width: 80%;
+    border-radius: 20px;
+    padding: 13px;
+    padding-bottom: 10px;
+}
+
+.content-hien button h4 {
+    float: left;
+}
+
+.content-hien button h3 {
+    float: right;
+}
+
+.text p {
+    float: left;
+    color: grey;
+    margin: auto;
+    font-size: 15px;
+}
+
+.text {
+    width: 77%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
