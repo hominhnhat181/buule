@@ -1,3 +1,11 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 * {
     margin: 0;
     padding: 0;
@@ -58,6 +66,18 @@ li {
     padding-top: 20px;
     
 }
+.img img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.col-flex-md-3 img{
+    width: 300px;
+    height: 300px;
+}
+
+
+ 
 
 
 
@@ -67,18 +87,68 @@ li {
     position: relative;
     width: 100%;
 }
+/**content1**/
 
-.content1 {
-    margin-top: 60px;
-    
+.content1_tittle{
+    padding-top: 
+    15px;
+    text-align: center;
 }
-.col-flex{
+.w3-third img{
+    width: 
+    150px;
+
+
+    height: 
+    110px;
+}
+
+.w3-row-padding{
+    text-align: center;
+   
+}
+
+.w3_third{
+    padding: 10px 50px;
+}
+
+.w3-third p{
+    padding-left: 15;
+    padding-right: 15;
+}
+
+
+.conten1{
+    border-bottom
+    : 4px outset red ;
+}
+
+
+/**content2**/
+.content2_title{
+    text-align: 
+    
+    center
+    ;
+}
+
+.content2{
     display: flex;
 }
-.content1_tittle {
-    text-align: center;
-    font-size: 30px;
+
+.logo_content2{
+    display: flex;
 }
+.logo_content2 img{
+    height: auto;
+
+    width: 150px;
+    margin: 0 50px;
+}
+
+
+/**content3**/
+
 
 .img_content {
     float: left;
@@ -116,24 +186,14 @@ li {
     max-width: 100%;
     width: 150px;
 }
-/*responsive */
 
-.gird {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
 
-.row {
-    display: flex;
-    background-color: rgb(208, 223, 223);
-    float: left;
-    height: 100%;
-}
 
-.col-sm-3 {
-    margin: 100px;
-    float: left;
+    
+
+
+.col-flex-md-10.col-sm-2 {
+    display:flex;
 }
 
 .content {
@@ -210,4 +270,61 @@ li {
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+
+}
+
+/*************footer*******/
+
+.footer{ 
+    text-align: left;
+    width: 100%;
+    background-color: rgb(209,224,214);
+}
+
+.footer-item  a{
+    color: black;
+    padding-left: 40px;
+}
+
+
+.row h3{
+    padding-top: 30px;
+    padding-left: 70px;
+    font-size: 20px;
+}
+.row p{
+    padding-left: 
+    40px;
+}
+
+.row h2{
+    padding-top: 
+    10px;
+    padding-left: 38px;
+    font-size: 20px;
+}
+.logo1 img{
+
+   
+    
+    height: 50px;
+    max-width: 100%;
+
+    margin: auto;
+    
+
+
+}
+.logo1{
+text-align: center;
+margin: 0 auto !important;
+}
+
+
+/* slick */
+.slick-arrow{
+    display: none !important;
+}
+.slick-dots{
+    display: none !important;
 }
