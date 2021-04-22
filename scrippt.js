@@ -32,3 +32,7 @@ $('.object_logo .col-flex').slick({
         // instead of a settings object
     ]
 });
+
+$('.card-header').click(function() {
+    $(this).find('i').toggleClass('fas fa-plus fas fa-minus');
+});

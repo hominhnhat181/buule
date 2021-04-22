@@ -16,179 +16,427 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel=”stylesheet” href=”https://use.fontawesome.com/releases/v5.7.0/css/all.css” integrity=”sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ” crossorigin=”anonymous”>
+
 </head>
 
 <body>
     <!-------------------------header---------------------------------------->
     <div class="header">
-        <div class="top_header">
-            <h4>Speak with a Client Educator today! <i class="fas fa-phone"></i> 877-867-5753
-
-            </h4>
-            <a href="">X</a>
-        </div>
-        <div class="bottom_header">
-            <div class="bottom_left_logo">
-                <div class="logo">
-                    <a href="#"><img src="img/img/1.jpg" alt="logo"></a>
-
-                </div>
+        <div class="row">
+            <div class="top_header ">
+                <h4 id="megay">Speak with a Client Educator today! <i class="fas fa-phone"></i> 877-867-5753
+                </h4>
+                <a id="megax" type="button" href="#">X</a>
             </div>
-            <div class="bottom_right_menu">
-                <div class="menu_container">
-                    <div class="menu">
-                        <div class="list_menu">
-                            <a href="">Dental stem</a>
-                            <a href="">Our Process</a>
-                            <a href="">Pricing</a>
-                            <a href="">Stories</a>
-                            <a href="#"><i class="fas fa-search"></i></a>
-                            <a href=""><button class="btn btn-primary" type="submit" style="background-color: red;">ENROL NOW</button></a>
-                      </div>
-                     </div>
+
+            <div class="bottom_header col-xl-11 ">
+                <div class="bottom_left_logo col-xl-3 col-lg-3 col-md-9 col-sm-12 col-12">
+                    <div class="logo">
+                        <a href="#"><img src="img/img/rm.png" alt=""></a>
+                    </div>
                 </div>
-            </div> 
-         </div> 
-         <div class="backgaround_header ">
-             <div class="img ">
-                 <img src="img/img/people.png">
-             </div>
-         </div>
-         
-       
-    
+                <!-- search -->
+
+                <div class="mid__menu col-xl-3 col-lg-6 col-md-9 col-sm-12 col-12">
+
+                    <ul class="mid__menu-object ">
+                        <li><a class="object " href="# ">Dental Stem Cells 101</a>
+                            <ul class="object__menu2 ">
+                                <li><a class="object2 " href="# ">Why Bank Stem Cells</a></li>
+
+                                <li><a class="object2 " href="# ">Why Teeth</a></li>
+                                <li><a id="level " class="object2 " href="# ">Emerging Treatments<i class="fas fa-chevron-right "></i></a>
+                                    <ul class="object__menu3 ">
+                                        <li><a class="object3 " href="# ">Why Bank Stem Cells</a></li>
+                                        <li><a class="object3 " href="# ">Why Teeth</a></li>
+                                        <li> <a class="object3 " href="# ">Dentist Recommender</a></li>
+                                        <li> <a class="object3 " href="# ">Why Bank Stem Cells</a></li>
+                                        <li><a class="object3 " href="# ">Why Teeth</a></li>
+                                        <li><a class="object3 " href="# ">Dentist Recommender</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="object2 " href="# ">Dentist Recommender</a></li>
+
+                            </ul>
+                        </li>   
+                        <li><a class="object " href="# ">Our Process</a></li>
+                        <li><a class="object " href="# ">Prising</a></li>
+                        <li><a class="object " href="# ">Stories </a></li>
+                        <li>
+                            <button id="hihihi " onclick="search() " style="border: none; background-color: unset; "><i class="fas fa-search "></i></button>
+                        </li>
+                        <li>
+                            <button class="right__btn ">ENROL NOW</button>
+                        </li>
+                    </ul>
+                    <div class="search__container" style="display: none;">
+                        <div class="search__content" style="display: flex;">
+                            <input class="form-control " id="myInput " type="text " placeholder="Search.. ">
+                            <a style="margin: auto; padding: 10px 20px; border: 1px initial rgb(229, 255, 244);" href="">X</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="slides col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+            <div class="slider-img ">
+                <img src="img/img/people.png" alt=" ">
+            </div>
+            <div class="content_slider col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 ">
+                <h1>Black Dental Stem <br> Prepare for the Future</h1>
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. commodi veritatis quibusdam commodi veritatis ullam quae </h4>
+                <button class="btn btn-primary " type="submit "><a href=" ">REQUEST INFOR KIT </a><i id="arrow1 " class="fas fa-arrow-circle-right " style="font-size: auto; "></i></button>
+            </div>
+        </div>
+    </div>
+
+    </div>
     <!--------------------------------content1------------->
 
-    <div class="object_logo">
-        <div class="col-flex">
-            <div class="col-flex-box">
-                <img src="img/logo1.png" alt="">
-            </div>
-            <div class="col-flex-box">
-                <img src="img/logo2.png" alt="">
-            </div>
-            <div class="col-flex-box">
-                <img src="img/logo3.png" alt="">
-            </div>
-            <div class="col-flex-box">
-                <img src="img/logo5.png" alt="">
-            </div>
-            <div class="col-flex-box">
-                <img src="img/logo4.png" alt="">
-            </div>
-            <div class="col-flex-box">
-                <img src="img/logo1.png" alt="">
-            </div>
-            <div class="col-flex-box">
-                <img src="img/logo2.png" alt="">
-            </div>
-            <div class="col-flex-box">
-                <img src="img/logo3.png" alt="">
-            </div>
-            <div class="col-flex-box">
-                <img src="img/logo5.png" alt="">
-            </div>
-            <div class="col-flex-box">
-                <img src="img/logo4.png" alt="">
-            </div>
+    <div class="content">
+    <div class="content1">
+       <div class="content1_tittle">
+           <h2>What You Get</h2>
+       </div>
+      <div class="w3-row-padding">
+        <div class="w3-third">
+            <img src="img/img/2.png">
+            <h3>Lorem ipsum Title 1</h3>
+                <p>Lorem ipsum dolor sit amet, consect
+                etur adipisicing elit, sed do eiusmod 
+                tempor incididum</p>
         </div>
-    </div> 
+        <div class="w3-third">
+            <img src="img/img/3.png">
+            <h3>Lorem ipsum Title 2</h3>
+            <p>Lorem ipsum dolor sit amet, consect
+            etur adipisicing elit, sed do eiusmod 
+            tempor incididum</p>
+        </div>
+        <div class="w3-third">
+            <img src="img/img/4.png">
+            <h3>Lorem ipsum Title 3</h3>
+            <p>Lorem ipsum dolor sit amet, consect
+            etur adipisicing elit, sed do eiusmod 
+            tempor incididum</p>
+        </div>
+      </div>
 
        <!------------------------content 2------------------------->
-       <div class="content2">
-        <div class="content2_title">
-            <p>AS SEEN ON</p>
+       <div class="object_logo">
+           <div class="logo_content2">
+               <H5> AS SEEN ONE</H5>
+           </div>
+        <div class="col-flex">
+            <div class="col-flex-box">
+                <img src="img/img/logo1.png" alt="">
+            </div>
+            <div class="col-flex-box">
+                <img src="img/img/logo2.png" alt="">
+            </div>
+            <div class="col-flex-box">
+                <img src="img/img/logo3.png" alt="">
+            </div>
+            <div class="col-flex-box">
+                <img src="img/img/logo4.png" alt="">
+            </div>
+            <div class="col-flex-box">
+                <img src="img/img/logo5.png" alt="">
+            </div>
+            <div class="col-flex-box">
+                <img src="img/img/logo1.png" alt="">
+            </div>
+            <div class="col-flex-box">
+                <img src="img/img/logo2.png" alt="">
+            </div>
+            <div class="col-flex-box">
+                <img src="img/img/logo3.png" alt="">
+            </div>
+            <div class="col-flex-box">
+                <img src="img/img/logo4.png" alt="">
+            </div>
+            <div class="col-flex-box">
+                <img src="img/img/logo5.png" alt="">
+            </div>
         </div>
-        <div class="logo_content2">
+    </div>
 
-          <div class="col-sm-2">
-              <img src="img/img/logo1.png">
-          </div>
-          <div class="col-sm-2">
-            <img src="img/img/logo2.png">
-          </div>
-          <div class="col-sm-2">
-            <img src="img/img/logo3.png">  
-          </div>
-          <div class="col-sm-2">
-            <img src="img/img/logo4.png">
-          </div>
-          <div class="col-sm-2">
-            <img src="img/img/logo5.png"> 
-          </div>
-          
-          
-        </div>
-        </div>
-      
-       
-       
-
-        
-        <!---------------------------content4---------------------------->
-        <div class="content4">
-            <div class="conten_container">
-                <div class="question">
-                    <h1>Still Have Question ?</h1>
-                    <h4> here are just a few of the things people frently ask about Store-A-Tooth</h4>
-                    <h4>If you don't see your question here,<a href="">see more FQA's or</a></h4>
-                    <h4><a href="">get in touch with us,</a></h4>
+    <!------------------------content3-------------------------------->
+    <div class="content3">
+        <div class="row col-flex">
+            <div class="content3_top_left col-flex-box col-xl-4 col-sm-10 col-lg-4 col-9 col-md-9 ">
+                <div class="content3_top_title">
+                    <h1>Our Lab.<br>cGMP-Compliant.</h1>
                 </div>
-                <div class="content-gth">
-                    <div class="content-hien">
-                        <button id="nut1" class="nut1" type="submit">
-                    <h4> What Are Stem Cells</h4>
-                    <h3>+</h3>
-                </button>
-                        <div class="text">
-                            <h5>
-                                <p>Stem cell have the ability to change into difrent cell types. They also have the ability to aid </p>
-                                <p>in the heading of damaged tissue. There are just two of the reasons Why scientits and</p>
-                                <p>doctors are so excited about the growing role of stem cells to trear disea, in jury, and the</p>
-                                <p>deterioration of tissue due to aging.</p>
-                            </h5>
+                <div class="content3_content">
+                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo culpa, est t repellendus accusamus quibusdam reiciendis obcaecati inventore id minima cum odit ab perferendis ex facere.</h5>
+                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo culpa, id et repellendus accusamus quibusdam reiciendis obcaecati inventore id minima cum odit ab perferendis ex facere.</h5>
+                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo culpa, eet repellendus accusamus quibusdam reiciendis obcaecati inventore.</h5>
+                    <button class="btn btn-primary " type="submit ">LEARN MORE</a>
+                        </button>
+                </div>
+            </div>
+            <div class="content3_top_right col-flex-box col-xl-4 col-sm-12 col-lg-5 col-12 col-md-12">
+                <img src="img/Layer 27.png" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="content_container3 row col-sm-11 col-xl-11 ">
+            <div class="content2_bottom_left col-flex-box col-sm-6 col-xl-5">
+                <img src="img/AdobeStock_78784562.png " alt=" ">
+            </div>
+            <div class="content3_bottom_right col-flex-box col-sm-5 col-xl-5">
+                <div class="conten3_bottom_title ">
+                    <h1>Our Process</h1>
+                </div>
+                <div class="content3_content ">
+                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo culpa, est t repellendus accusamus quibusdam reiciendis obcaecati inventore id minima cum odit ab perferendis ex facere.</h5>
 
+                    <h5> eet repellendus accusamus quibusdam reiciendis obcaecati inventore.</h5>
+                    <button class="btn btn-primary " type="submit ">LEARN MORE</a>
+                        </button>
+                 </div>
+             </div>
+        </div>
+    </div>
+    
+       
+        <!-------------------------------content6---------------->
+        <div class="content6 ">
+            <div class="content6_container col-xl-12 ">
+                <div class="content6_title col-xl-12 col-md-6 col-sm-6 col-8 ">
+                    <h1>Parent Approved</h1>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, explicabo voluptates! Alias doloremque</h5>
+                </div>
+                <div class="content6_content ">
+                    <div class="content6_row col-flex row col-xl-11  ">
+                        <div class="col-flex-box col-md-4 col-lg-4 col-xl-4 col-sm-4 col-12 ">
+                            <div class="container_oj ">
+                                <div class="oj_img ">
+                                    <img src="img/img/3_0.png " alt=" ">
+                                    <i class="fas fa-play-circle "></i>
+    
+    
+                                </div>
+                                <div class="oj_ct ">
+                                    <div class="oj_ct_title ">
+                                        <a href=" ">
+                                            <h3>Georgia</h3>
+                                        </a>
+                                    </div>
+                                    <div class="oj_ct_ct ">
+                                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quia ipsum tempore distinctio repudiandae </h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <button id="nut1" class="nut1" type="submit">
-                    <h4> What Are Stem Cells</h4>
-                    <h3>+</h3>
-                </button>
-                        <button id="nut1" class="nut1" type="submit">
-                    <h4> What Are Stem Cells</h4>
-                    <h3>+</h3>
-                </button>
-                        <button id="nut1" class="nut1" type="submit">
-                    <h4> What Are Stem Cells</h4>
-                    <h3>+</h3>
-                </button>
-                        <button id="nut1" class="nut1" type="submit">
-                    <h4> What Are Stem Cells</h4>
-                    <h3>+</h3>
-                </button>
+                        <div class="col-flex-box col-md-4 col-lg-4 col-xl-4 col-sm-4 col-12 ">
+                            <div class="container_oj ">
+                                <div class="oj_img ">
+                                    <img src="img/img/3_1.png " alt=" ">
+                                    <i class="fas fa-play-circle "></i>
+    
+    
+                                </div>
+                                <div class="oj_ct ">
+                                    <div class="oj_ct_title ">
+                                        <a href=" ">
+                                            <h3>Claudia</h3>
+                                        </a>
+                                    </div>
+                                    <div class="oj_ct_ct ">
+                                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quia ipsum tempore distinctio repudiandae </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-flex-box col-md-4 col-lg-4 col-xl-4 col-sm-4 col-12 ">
+                            <div class="container_oj ">
+                                <div class="oj_img ">
+                                    <img src="img/img/3_2.png " alt=" ">
+                                    <i class="fas fa-play-circle "></i>
+    
+    
+                                </div>
+                                <div class="oj_ct ">
+                                    <div class="oj_ct_title ">
+                                        <a href=" ">
+                                            <h3>Georgia</h3>
+                                        </a>
+                                    </div>
+                                    <div class="oj_ct_ct ">
+                                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quia ipsum tempore distinctio repudiandae </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
+                </div>
+                <div class="content6_btn ">
+                    <button class="btn btn-primary " type="submit ">LEARN MORE</a>
+                            </button>
                 </div>
             </div>
         </div>
-        <!------------------------------------------CONTENT5 ----------------------------------------->
-        <div class="content5 ">
-            <div class="ct5_container">
-                <div class="email">
-                    <img src="img/2.PNG"> </div>
-                <div class="ct5_content">
-                    <h5>You are invetid</h5>
-                    <h2> Enter your Email for Exclusive Offers and Updates</h2>
+         <!---------------------------content4---------------------------->
+         <div class="content4">
+            <div class="content4_container col-xl-12 ">
+                <div class="content4_question row">
+                    <h1>Still Have Question ?</h1>
+                    <h4> here are just a few of the things people frently ask about Store-A-Tooth<br>
+                    If you don't see your question here,<a href="">see more FQA's or,</a><br>
+                    <a href="">get in touch with us,</a></h4>
+                </div>
+                    <div class="card">
+                        <button class="card-header collapsed card-link"
+                                data-toggle="collapse"
+                                data-target="#collapseTwo">
+      
+                            <b class="header-title float-left">
+                                What Are Stem Cells</b>
+                            <i class="fas fa-plus float-right "></i>
+                        </button>
+                          
+                        <div id="collapseTwo" class="collapse"
+                                data-parent="#accordion">
+                            <div class="card-body">
+                                <h5>
+                                    <p>Stem cell have the ability to change into difrent cell types. They also have the ability to aid </p>
+                                    <p>in the heading of damaged tissue. There are just two of the reasons Why scientits and</p>
+                                    <p>doctors are so excited about the growing role of stem cells to trear disea, in jury, and the</p>
+          
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                      
+                   
+                    <div class="card">
+                        <button class="card-header collapsed card-link"
+                                data-toggle="collapse"
+                                data-target="#collapseThree">
+      
+                            <b class="header-title float-left">
+                                What Are Stem Cells?
+                            </b>
+                            <i class="fas fa-plus float-right "></i>
+      
+                        </button>
+                        <div id="collapseThree" class="collapse row"
+                                data-parent="#accordion">
+                            <div class="card-body col-xl-7">
+                                <h5>
+                                    <p>Stem cell have the ability to change into difrent cell types. They also have the ability to aid </p>
+                                    <p>in the heading of damaged tissue. There are just two of the reasons Why scientits and</p>
+                                    <p>doctors are so excited about the growing role of stem cells to trear disea, in jury, and the</p>
+          
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <button class="card-header collapsed card-link"
+                                data-toggle="collapse"
+                                data-target="#collapseFive">
+      
+                            <b class="header-title float-left">
+                                What Are Stem Cells
+                            </b>
+                            <i class="fas fa-plus float-right "></i>
+      
+                        </button>
+                        <div id="collapseFive" class="collapse"
+                                data-parent="#accordion">
+                            <div class="card-body">
+                                <h5>
+                                    <p>Stem cell have the ability to change into difrent cell types. They also have the ability to aid </p>
+                                    <p>in the heading of damaged tissue. There are just two of the reasons Why scientits and</p>
+                                    <p>doctors are so excited about the growing role of stem cells to trear disea, in jury, and the</p>
+          
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <button class="card-header collapsed card-link"
+                                data-toggle="collapse"
+                                data-target="#collapseSix">
+      
+                            <b class="header-title float-left">
+                                What Are Stem Cells
+                            </b>
+                            <i class="fas fa-plus float-right "></i>
+      
+                        </button>
+                        <div id="collapseSix" class="collapse"
+                                data-parent="#accordion">
+                            <div class="card-body">
+                                <h5>
+                                    <p>Stem cell have the ability to change into difrent cell types. They also have the ability to aid </p>
+                                    <p>in the heading of damaged tissue. There are just two of the reasons Why scientits and</p>
+                                    <p>doctors are so excited about the growing role of stem cells to trear disea, in jury, and the</p>
+          
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <button class="card-header collapsed card-link"
+                                data-toggle="collapse"
+                                data-target="#collapseFor">
+      
+                            <b class="header-title float-left">
+                                What Are Stem Cells
+                            </b>
+                            <i class="fas fa-plus float-right "></i>
+      
+                        </button>
+                        <div id="collapseFor" class="collapse"
+                                data-parent="#accordion">
+                            <div class="card-body">
+                                <h5>
+                                    <p>Stem cell have the ability to change into difrent cell types. They also have the ability to aid </p>
+                                    <p>in the heading of damaged tissue. There are just two of the reasons Why scientits and</p>
+                                    <p>doctors are so excited about the growing role of stem cells to trear disea, in jury, and the</p>
+          
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="email_text">
-                <input class="font-control" type="text" placeholder="Enter your Email">
-                <h5>I consent to the trainsfer and validation of my email address in conjugation of this email serivice understand i may wihtdraw my consent and unsubrice at any time
+        </div>
+       
+<!----------------------------------------------contet5------------------------->
+<div class="content5">
+    <div class="left row">
+        <div class="email-container row col-xl-10">
+            <div class="email_letter col-xl-8 col-lg-10 col-md-8 col-sm-10 col-11">
+                <div class=" right row">
+                    <img class="ct5_img col-xl-2" src="img/2.PNG" alt="">
+                    <div class="ct5_content col-xl-9">
+                        <h5>You are Invited!</h5>
+                        <h2>Enter Your Email for Exclusive Offers and Updates</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="email_text col-xl-4 col-lg-10 col-md-8 col-sm-10 col-11">
+                <DIV class="email_enter">
+                    <input class="input_email form-control " type="text" placeholder="Enter Your Email...">
+                    <button id="btn111" class="btn btn-primary " type="submit"><i class="fas fa-arrow-right"></i>
+
+                    </button>
+                </DIV>
+                <h5 class="col-xl-12">Lorem ipsum dolor sit amet consecte. Quas molestias temporibus, repellat rem alias tempor expedita doloremque corrupti dolore rerum facere labore.
                 </h5>
+
             </div>
         </div>
-        </div>
-
-
+    </div>
+</div>
 
         <!--------------------------FOOTER--------------------------------------------------------->
         <div class="footer">
@@ -256,7 +504,7 @@
                             </li>
                         </ul>
               </div>
-              <div class="logo1">
+              <div class="logo_end">
                 <img src="img/img/rm.png">
                 <p>copyright @ 2016 Provia Laboratories LLC All rights seveved </p>
             </div>
